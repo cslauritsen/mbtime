@@ -13,8 +13,10 @@ INSTALLATION
 This library requires cmake & the MQ include files (<cmqc.h>, etc.) to build. It installs the shared library and include files to /usr/local.
 
 Build Procedure:
-> cd mbtime
-> mkdir target
-> cmake ..
-> make install
-> sudo make install
+```
+ cd mbtime
+ mkdir target
+ cmake ..
+ make install
+ sudo make install
+```
