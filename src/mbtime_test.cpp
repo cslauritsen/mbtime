@@ -8,6 +8,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <cmqc.h>
+#include <unistd.h>
 
 using namespace std;
 // Pass in the name of a raw MQ message (with headers) saved to a file
