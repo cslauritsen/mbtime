@@ -48,6 +48,8 @@ int main(int argc, char** argv) {
 	cout << "=========================================" << endl;
 	cout << "MQMD.ReplyToQ:      " << mbt->md.ReplyToQ   << endl;
 
+	Mbt_Free(&mbt);
+
 //	munmap(buf, length);
 	close(fd);
 }
